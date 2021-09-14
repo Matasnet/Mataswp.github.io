@@ -1,0 +1,24 @@
+notatki
+ var my_first_variable = 5 // deklracacja zmiennej
+
+ my_first_variable = 4
+
+
+ let my_first_variable = 1
+ my_first_variable = 213
+
+// const to stała
+const my_first_variable = 1
+
+
+alert(my_first_variable)
+
+let my_variable = [] - tablica
+                    0    1   2  3      
+let my_variable = ['a', 'b', 1, 2]
+console.log(my_variable[2]) w celu wyświetlenia 2 ID z tabeli
+
+let my_variable = {first_name: 'Adam', last_name: 'Smith', age: 30} Inna wersja tablicy
+console.log(my_variable.first_name) wypisywanie konkretnego pola z tablicy
+
+let my_variable = {"first_name": "Adam"} Tablica danych typu Jaison

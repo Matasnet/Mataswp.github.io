@@ -1,0 +1,179 @@
+/* td { selector 
+    
+    text-align: center; property: values;
+
+} */
+
+table {
+    /* text-align: center; */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid greenyellow;
+    color: black;
+    font-weight:bold;
+}
+
+table th {
+    text-align: left;
+    color: orangered;
+}
+
+mark {
+    border-radius: 50px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    /* background-image: url("https://i.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0" ); */
+    box-sizing: border-box;
+    margin: 0;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    color: #FC7629;
+}
+
+p {
+    color: #2A3655;
+}
+
+/* h3, p {
+    color: #FC7629;
+} */
+
+/* class definiujemy zaczynając od . kropki np. .nazwa_klasy */
+.sup_element {
+    color: #bcffbc;
+}
+/* dla p znajdującego się w footer. np. footer - div - p */
+footer p {
+    color: red;
+}
+/* element dziecka dla p znajdującego się TYLKO w footer czyli footer > p */
+/* footer > p {
+    color: red;
+} */
+
+
+h1 {
+    color:black;
+}
+
+/* id definiujemy za pomocą # */
+#first-id {
+    color:blue;
+}
+
+.obrmowanie{
+    border: 1px solid red;
+    padding-left: 50px;
+}  
+
+.fist-class{
+    color:greenyellow;
+}
+
+div#main-content {
+background-color: grey;
+padding-left: 30px;
+padding-top: 80px;
+padding-bottom: 80px;
+/* border-style: solid; */
+display: flex;
+/* flex-wrap: nowrap; */
+justify-content: space-around;
+background-image:linear-gradient(170deg, #FFF7F6, #CACACA);
+}
+
+* /* ustawianie marginesu, paddingu i box tzw. pudełka */
+{
+
+    padding: 0;
+}
+
+
+
+
+/* div:hover{
+    color: #ff66ce;
+
+} */
+
+/* table tr:first-child{
+    color: blue;
+} */
+
+span {
+    display: block;
+}
+
+header a {
+    float: right;
+    color:rgb(43, 43, 43);
+  
+}
+
+a:hover {
+    color: #00d9ffab ;
+    }
+
+a{
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.link {
+    padding-left: 5px;  
+}
+
+header h1 {
+    float:left;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-image: linear-gradient(45deg, #bff0ff, #FFF7F6);
+}
+
+#articles {
+ flex-grow: 1;
+}
+
+#skills {
+    flex-grow: 1;
+    align-self: top;
+}
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width:100%;
+    background-color: aqua;
+    color: rgb(29, 32, 30);
+
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    div#main-content, header{
+         flex-direction: column;  
+    }
+
+ 
+}
